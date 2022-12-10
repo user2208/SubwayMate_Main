@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 // 경로 안내에 대한 알림
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     // 알림 채널 생성 및 등록
-                    {
+                    private createNotificationChannel(){
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                             CharSequence name = getString(R.string.channel_name);
                             String description = getString(R.string.channel_description);
